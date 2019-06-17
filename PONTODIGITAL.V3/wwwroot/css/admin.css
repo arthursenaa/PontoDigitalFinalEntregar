@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------NAV------------- */
+.menu{
+    height: 2.5em;
+    width: 100%; 
+    background-color: #2c2cc5;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.menu ul h1{
+    margin-left: -3em;
+    margin-top: -5%;
+    color: #ffffff;
+}
+.menu ul a{
+    text-decoration: none;
+    margin-top: 0.5em;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+/* Fim */
+/* -------------Comentarios------------------- */
+.perguntas{
+    display: flex;
+    margin-left: 10%;
+    border-bottom-left-radius: 5.3em;
+    border-top-left-radius: 5em;
+    background-color: #005eb8;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em; 
+    width: 80%;
+}
+/*-------------Fim--------- */
+/* -------------------Lista Usuarios ------------------- */
+.container{
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2em; 
+}
+.container div{
+    width: 100%;
+    display: flex;
+}
+.container h2{
+    text-align: center;
+}
+.container tr{
+    justify-items: auto;
+}
+/* ---------Fim--------- */
+
